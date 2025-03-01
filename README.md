@@ -16,4 +16,4 @@ Berikut ini adalah checkboxes untuk laporan pengumpulan tugas:
 - [x]  relations
 - [x]  seeder
 
-### Branch Master
+### Branch Tugas 1
