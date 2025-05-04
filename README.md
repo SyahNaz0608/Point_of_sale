@@ -15,5 +15,5 @@ Berikut ini adalah checkboxes untuk laporan pengumpulan tugas:
 - [x]  models
 - [x]  relations
 - [x]  seeder
-
-### Branch Tugas 1
+- [x]  CRUD Category
+- [x]  CRUD Products (photo & kode produk❌)
