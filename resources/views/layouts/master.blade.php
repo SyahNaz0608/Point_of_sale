@@ -215,7 +215,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ '/customer' }}" class="nav-link">
+            <a href="{{ '/customers' }}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Pelanggan
@@ -223,7 +223,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ '/order' }}" class="nav-link">
+            <a href="{{ '/orders' }}" class="nav-link">
               <i class="nav-icon fa fa-shopping-basket"></i>
               <p>
                 Pesanan
@@ -231,7 +231,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ '/user' }}" class="nav-link">
+            <a href="{{ '/users' }}" class="nav-link">
               <i class="nav-icon fas fa-user"></i>
               <p>
                 Pengguna

@@ -1,12 +1,21 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ProductController;
-use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\{
+    ProductController,
+    CategoryController,
+    CustomerController
+};
 
 Route::get('/', function () {
     return view('layouts.master');
-});
+})->name('home');
 
-Route::resource('categories', CategoryController::class);
-Route::resource('products', ProductController::class);
+// Resource routes
+Route::group(['middleware' => ['web']], function () {
+    Route::resources([
+        'categories' => CategoryController::class,
+        'products'   => ProductController::class,
+        'customers'  => CustomerController::class
+    ]);
+});

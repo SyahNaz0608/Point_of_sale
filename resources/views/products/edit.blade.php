@@ -47,33 +47,33 @@
                                     <input type="text" 
                                         name="name"
                                         value="{{ $product->name }}"
-                                        class="form-control {{ $errors->has('name') ? 'is-invalid':'' }}" id="name" required>
+                                        class="form-control {{ $errors->has('name') ? 'is-invalid': '' }}" id="name" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="description">Deskripsi</label>
                                     <textarea name="description" 
                                         id="description" 
                                         cols="5" rows="5" 
-                                        class="form-control {{ $errors->has('description') ? 'is-invalid':'' }}">{{ $product->description }}</textarea>
+                                        class="form-control {{ $errors->has('description') ? 'is-invalid': '' }}">{{ $product->description }}</textarea>
                                 </div>
                                 <div class="form-group">
                                     <label for="stock">persediaan</label>
                                     <input type="number"
                                         name="stock"
                                         value="{{ $product->stock }}"
-                                        class="form-control {{ $errors->has('stock') ? 'is-invalid':'' }}" id="stock" required>
+                                        class="form-control {{ $errors->has('stock') ? 'is-invalid': '' }}" id="stock" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="price">Harga</label>
                                     <input type="number"
                                         name="price"
                                         value="{{ $product->price }}"
-                                        class="form-control {{ $errors->has('price') ? 'is-invalid':'' }}" id="price" required>
+                                        class="form-control {{ $errors->has('price') ? 'is-invalid': '' }}" id="price" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="category">Kategori Baru</label>
                                     <select name="category_id" id="category_id"
-                                        required class="form-control {{ $errors->has('category_id') ? 'is-invalid':'' }}">
+                                        required class="form-control {{ $errors->has('category_id') ? 'is-invalid': '' }}">
                                         <option value="">Pilih Kategori baru</option>
                                         @foreach ($categories as $row)
                                             <option value="{{ $row->id }}">{{ $row->name }}</option>

@@ -14,6 +14,7 @@ Berikut ini adalah checkboxes untuk laporan pengumpulan tugas:
 - [x]  migrations
 - [x]  models
 - [x]  relations
-- [x]  seeder
-- [x]  CRUD Category
+- [x]  seeders
+- [x]  CRUD Categories
 - [x]  CRUD Products (photo & kode produk❌)
+- [X]  CRUD Customers
