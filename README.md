@@ -18,3 +18,4 @@ Berikut ini adalah checkboxes untuk laporan pengumpulan tugas:
 - [x]  CRUD Categories
 - [x]  CRUD Products (photo & kode produk❌)
 - [X]  CRUD Customers
+- [X]  Authentication Users
