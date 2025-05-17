@@ -238,6 +238,17 @@
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <form action="{{ route('logout') }}" method="post" class="nav-link p-0">
+              {{ csrf_field() }}
+              <button type="submit" class="nav-link btn btn-link w-100 text-left">
+                <i class="nav-icon fa fa-sign-out-alt"></i>
+                <p>
+                  Logout
+                </p>
+              </button>
+            </form>
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
